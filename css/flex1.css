@@ -1,0 +1,39 @@
+.details{
+	display: flex;
+}
+.jer{
+	flex:1;
+	text-align: center;
+	padding: 1vw 1vw;padding-top: 2vw;
+	font-size: 3vw;font-family: 'Mirza', cursive;
+	margin: 0;
+	background-color: rgb(180,0,40);
+}
+
+.name {
+	flex:4;
+	text-align: center;
+	background-color: rgb(190,10,30);
+}
+.name p,h1{ 
+	margin: 0.2vw;
+	padding: 0.2vw;
+	font-size: 2.4vw;font-family: 'Mirza', cursive;
+	color: white;	
+
+}
+.name p:hover,h1:hover
+{
+	background-color: rgba(10,2,1,0.5);
+}
+.contt ul{
+	display: flex;padding-left: 2vw;padding-right: 2vw;margin:auto;flex-wrap: wrap;}
+.contt li{
+	list-style:none;
+}
+.play{
+	flex:1 1 30%;border: 1px solid black;
+}
+.play img{
+	padding:auto;width: 100%;
+}

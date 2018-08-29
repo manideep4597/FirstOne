@@ -1,0 +1,77 @@
+.logo
+ {
+    background: url(../Images/back1.jpg); 
+    background-size:contain;
+    margin:auto;
+    height:auto;
+    padding-bottom: 0;
+
+}
+.tit h1{
+	text-align: center;
+	border: 1px;
+	padding-top: 2vw;padding-bottom: 2vw;
+	font-size: 3vw;
+	font-family: 'Cardo', serif;
+}
+@media all and (min-width: 600px){
+.wrap
+{position: fixed;width: 100%;z-index: 1000;
+}
+}
+body{
+	background-image: url(../Images/backk.jpg); margin:0;
+}
+
+.hero img{
+	margin: 0;width: 100%;margin-top: 12.2vw;
+}
+.logo img{
+           
+         
+           vertical-align:top;height:8vw;padding:0;
+}
+.nav_flex ul li a{
+		text-decoration: none;
+		text-align: center;
+		color:white;font-size: 2vw;font-family: 'Cardo', serif;
+		 		padding:0.8vw 0.5vw;
+		       display:block;
+		
+
+	}
+	footer ul li a{
+		text-decoration: none;
+		text-align: center;
+		color:white;font-size: 3vw;font-family: 'Cardo', serif;
+		 		padding:0;
+		       display:block;
+		
+
+	}
+	footer{
+		background-color: rgba(10,10,10,1);padding-bottom: 3vw;
+	}
+	footer ul{
+		display: flex;width:100%;padding-left: 0;
+	}
+	footer ul li{
+		list-style: none;
+		flex:3;
+		background-color: rgba(10,10,10,1);
+		z-index: 10;
+		padding-top:2vw;
+		padding-bottom: 2vw;
+		margin:0; 
+	}
+	.social{
+		flex:2;
+	}
+	.social a img{
+		width: 3vw;height: 3vw;padding: 0;
+	}
+		a:hover {
+		background-color: rgba(12,2,23,0.5);
+
+	}
+
